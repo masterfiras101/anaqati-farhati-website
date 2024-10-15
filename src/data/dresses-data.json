@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "path": "/src/assets/imgs/Dresses/d_1.jpg",
+        "fabric_type": "فستان زفاف ",
+        "care_instructions": "غسيل يدوي فقط",
+        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن",
+        "closure_type": "فستان زفاف بسحاب",
+        "date": "2024-10-15"
+    },
+    {
+        "id": 2,
+        "path": "/src/assets/imgs/Dresses/d_2.jpg",
+        "fabric_type": "فستان زفاف ",
+        "care_instructions": "غسيل يدوي فقط",
+        "about_dresse": "فستان زفاف  الناعم والمريح، فساتين زفاف ببطانة ، فساتين زفاف بوهو بحمالة صدر مدمجة",
+        "closure_type": "فستان زفاف بسحاب",
+        "date": "2024-10-15"
+    },
+
+     {
+        "id": 3,
+        "path": "/src/assets/imgs/Dresses/d_3.jpg",
+        "fabric_type": "فستان زفاف ",
+        "care_instructions": "غسيل يدوي فقط",
+        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن",
+        "closure_type": "فستان زفاف بسحاب",
+        "date": "2024-10-15"
+    },
+
+     {
+        "id": 4,
+        "path": "/src/assets/imgs/Dresses/d_4.jpg",
+        "fabric_type": "فستان زفاف ",
+        "care_instructions": "غسيل يدوي فقط",
+        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+        "closure_type": "فستان زفاف بسحاب",
+        "date": "2024-10-15"
+    },
+     {
+        "id": 5,
+        "path": "/src/assets/imgs/Dresses/d_5.jpg",
+        "fabric_type": "فستان زفاف ",
+        "care_instructions": "غسيل يدوي فقط",
+        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+        "closure_type": "فستان زفاف بسحاب",
+        "date": "2024-10-15"
+    },
+        {
+            "id": 6,
+            "path": "/src/assets/imgs/Dresses/d_6.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        },
+        {
+            "id": 7,
+            "path": "/src/assets/imgs/Dresses/d_7.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        },
+        {
+            "id": 8,
+            "path": "/src/assets/imgs/Dresses/d_8.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        },
+        {
+            "id": 9,
+            "path": "/src/assets/imgs/Dresses/d_9.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        },
+        {
+            "id": 10,
+            "path": "/src/assets/imgs/Dresses/d_10.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        },
+        {
+            "id": 11,
+            "path": "/src/assets/imgs/Dresses/d_11.jpg",
+            "fabric_type": "فستان زفاف ",
+            "care_instructions": "غسيل يدوي فقط",
+            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
+            "closure_type": "فستان زفاف بسحاب",
+            "date": "2024-10-15"
+        }
+]
