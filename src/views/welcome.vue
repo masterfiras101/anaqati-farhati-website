@@ -13,14 +13,17 @@ import { ref } from 'vue'
 import IndexContent from './pages/pagescontent/IndexContent.vue';
 import DressesContent from './pages/pagescontent/DressesContent.vue';
 import Footer from '@/components/Footer.vue';
+import BeautyCareContent from './pages/pagescontent/BeautyCareContent.vue';
+import AccessoriesContent from './pages/pagescontent/AccessoriesContent.vue';
+import ShoesContent from './pages/pagescontent/ShoesContent.vue';
 
 
 
 const navigation = [
-  { name: 'فساتين الزفاف', href: '#' },
-  { name: 'الإكسسوارات', href: '#' },
-  { name: 'العناية بالجمال', href: '#' },
-  { name: 'الأحذية', href: '#' },
+  { name: 'فساتين الزفاف', href: '#dresses-section' },
+  { name: 'الإكسسوارات', href: '#accessories-section' },
+  { name: 'العناية بالجمال', href: '#beautycare-section' },
+  { name: 'الأحذية', href: '#shoes-section' },
 ]
 
 const mobileMenuOpen = ref(false)
@@ -113,6 +116,7 @@ const mobileMenuOpen = ref(false)
                 class="delay-400 absolute left-0 top-2.5 block h-0.5 w-6 rounded-sm bg-white duration-200 ease-in-out dark:bg-white"
                 :class="{ '!h-0 delay-200': !mobileMenuOpen}"
               ></span>
+             
             </span>
              </label>
             </button>
@@ -128,10 +132,10 @@ const mobileMenuOpen = ref(false)
         <div class="mt-6 flow-root bg-white border-3 rounded-2xl">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6 text-center">
-              <a v-for="item in navigation" :key="item.name" :href="item.href" class="mx-1 block rounded-lg px-3  py-2 text-base font-semibold leading-7  text-gray-900 hover:bg-gray-50">{{ item.name }}</a>
+              <a v-for="item in navigation" :key="item.name" :href="item.href" class="mx-1 block rounded-lg px-3  py-2 text-base font-semibold leading-7  text-gray-900 hover:bg-pink-200">{{ item.name }}</a>
             </div>
             <div class="py-6 text-center">
-              <a  href="#footer" v-smooth-scroll @click="mobileMenuOpen = false"  class="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">تسجيل الدخول</a>
+              <a  href="#footer" v-smooth-scroll @click="mobileMenuOpen = false"  class=" block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-pink-200">تسجيل الدخول</a>
             </div>
           </div>
         </div>
@@ -139,24 +143,28 @@ const mobileMenuOpen = ref(false)
     </Dialog>
   </header>
             <!-- start slot section-->
-          <div class="">
+          <div id="index-section"   class="">
               <IndexContent/>
             </div>
 
          </div>
 </div>
 
-<section class="bg-gray-50 border border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="dresses">
+<section class="bg-gray-50 border border-b-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="dresses-section">
     <DressesContent/>
 </section>
-<section id="accessories">
+<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="beautycare-section">
+    <BeautyCareContent/>
 </section>
-<section id="beauty-care">
+<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="accessories-section">
 
-</section>
-<section id="shoes">
-</section>
+    <AccessoriesContent/>
+  </section>
+<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="shoes-section">
 
+      <ShoesContent/>
+  </section>
+  
 
 
 <section id="footer">

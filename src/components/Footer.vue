@@ -3,7 +3,7 @@
 
 <template>
     
-                                        <footer class="w-full bg-gray-100 dark:bg-gray-900 py-16">
+  <footer class="w-full bg-gray-100 dark:bg-gray-900 py-16">
   <div class="md:px-12 lg:px-28">
     <div class="container m-auto space-y-6 text-gray-600 dark:text-gray-300 ">
       <div class="flex justify-between text-center">
@@ -13,11 +13,11 @@
           role="list"
           class="flex flex-col items-center justify-center m-auto gap-4 py-4 sm:flex-row sm:gap-8"
         >
-          <li role="listitem"><a href="#" class="hover:text-pink-500">الرئيسية</a></li>
-          <li role="listitem"><a href="#" class="hover:text-pink-500">فساتين الزفاف</a></li>
-          <li role="listitem"><a href="#" class="hover:text-pink-500">العناية بالجمال</a></li>
-          <li role="listitem"><a href="#" class="hover:text-pink-500">الإكسسوارات</a></li>
-          <li role="listitem"><a href="#" class="hover:text-pink-500">من نحن</a></li>
+          <li role="listitem"><a href="#index-section" class="hover:text-pink-500">الرئيسية</a></li>
+          <li role="listitem"><a href="#dresses-section" class="hover:text-pink-500">فساتين الزفاف</a></li>
+          <li role="listitem"><a href="#beautycare-section" class="hover:text-pink-500">العناية بالجمال</a></li>
+          <li role="listitem"><a href="#accessories-section" class="hover:text-pink-500">الإكسسوارات</a></li>
+          <li role="listitem"><a href="#about" class="hover:text-pink-500">من نحن</a></li>
         </ul>
       </div>
       <div class="m-auto flex w-max items-center justify-between space-x-4">
