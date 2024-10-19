@@ -1,5 +1,5 @@
 <script setup>
-// import Checkbox from '@/components/Checkbox.vue';
+import Checkbox from '@/components/Checkbox.vue';
 import InputLabel from '@/components/InputLabel.vue';
 import TextInput from '@/components/TextInput.vue';
 import ThemeToggle from '@/components/ThemeToggle.vue';
@@ -16,15 +16,15 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
             <nav  class="fixed z-20 w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur navbar shadow-md shadow-gray-600/5 peer-checked:navbar-active md:relative md:bg-transparent dark:shadow-none">
                 <div class="xl:container m-auto px-6 md:px-12">
                     <div class="flex flex-wrap items-center justify-between gap-6 md:py-3 md:gap-0">
-                        <div class="w-full flex justify-between lg:w-auto">
+                        <div class="w-full   px-2 flex justify-between lg:w-auto mt-3 ">
                             <div></div>
-                            <router-link to="/" aria-label="logo" class="flex space-x-2 items-center">
-                                <div aria-hidden="true" class="flex space-x-1">
+                            <router-link :to="{name:'index_page'}" aria-label="logo" class="flex space-x-6 pl-2 items-center">
+                                <!-- <div aria-hidden="true" class="flex">
                                     <div class="h-4 w-4 rounded-full bg-gray-900 dark:bg-blue-200"></div>
                                     <div class="h-6 w-2 bg-primary dark:bg-blue-400"></div>
-                                </div>
+                                </div> -->
                                 <!-- <span class="text-base font-bold text-blue-600 dark:text-white">OssolTrust أصول ترست</span> -->
-                                <div class="flex   lg:flex-1 z-999">
+                                <div class="flex lg:flex-1 z-999 ml-7 items-center justify-center">
                                     <p class=" text-gray-900 dark:font-bold font-semibold font-tharwat text-2xl  dark:text-white">أناقة فرحتي</p>
                                 </div>
                             </router-link>
@@ -35,16 +35,17 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
                             </div>
                             <!-- <ThemeToggle/> -->
                              <!-- close and go to revers path  -->
-                            <router-link to="/"  class="m-2.5 rounded-sm  lg:bg-slate-900 bg-slate-400  text-gray-100">
+                            <router-link :to="{name:'index_page'}"  class="m-1.5 rounded-md p-1.5 -mr-1 pb-2 block lg:hidden bg-gray-800  text-gray-100">
                             <span class="sr-only">got to revers path</span>
-                            <label for="hbr" class="peer-checked:hamburger  relative z-20 px-4  cursor-pointer lg:hidden">
-                            <span class="absolute  rotate-45 ">
+                            <label for="hbr" class="peer-checked:hamburger  relative z-20 px-3   cursor-pointer lg:hidden">
+                            <span class="absolute rotate-45">
                                 <span
-                                    class="absolute left-2.5 top-0 block h-5.5 w-0.5 rounded-sm bg-white  delay-300 duration-200 ease-in-out dark:bg-white"
+                                    class="absolute left-[8px] top-0 block h-5 w-[1px] rounded-sm bg-white  delay-300 duration-200 ease-in-out dark:bg-white"
                                     
                                 ></span>
+                                
                                 <span
-                                    class="delay-400 absolute left-0 top-2.5 block h-0.5 w-6 rounded-sm bg-white duration-200 ease-in-out dark:bg-white"
+                                    class="delay-400 absolute -left-[2px]  top-[10px] block h-[1px] w-[22px] rounded-sm bg-white duration-200 ease-in-out dark:bg-white"
                                     
                                 ></span>
                             
@@ -56,7 +57,7 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
                         </div>
                         <div class="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-slate-900     lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
                             <div class="w-full space-y-2 border-blue-600/10 dark:border-blue-600 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
-                                <router-link to="/"  class="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full focus:before:bg-primary/10 dark:focus:before:bg-primaryLight/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
+                                <router-link :to="{name:'index_page'}"  class="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full focus:before:bg-primary/10 dark:focus:before:bg-primaryLight/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
                                     <span class="relative text-bold font-semibold text-blue-600  dark:text-primaryLight">خروج</span>
                                 </router-link>
                             
@@ -75,7 +76,7 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
           <img src="images/logo.svg" class="w-40 hidden dark:block" alt="tailus logo" /> -->
         </router-link>
       </div>
-    <div class="mt-12 rounded-2xl  bg-gray-50  dark:bg-slate-900 -mx-6 sm:-mx-10 p-8 sm:p-10">
+    <div class="mt-12 rounded-2xl   bg-gray-50  dark:bg-slate-900 -mx-6 sm:-mx-10 p-8 sm:p-10">
       <h3 class="text-2xl font-semibold text-center text-gray-700 dark:text-white">قم بتسجيل الدخول</h3>
       
                 <form  class="mt-10  space-y-8 dark:text-white ">
@@ -135,14 +136,14 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
             <div class="flex justify-between">
 
                 <router-link 
-                to="/"  class="-mr-3 w-max p-3 flex items-start">
+                :to="{name:'index_page'}"  class="-mr-3 w-max p-3 flex items-start">
                 <span class="text-sm tracking-wide text-pink-600 dark:text-white"> نسيت كلمة المرور ؟ </span>
             </router-link>
             <label class="flex items-center">
                 <span class="ms-2 mr-2 text-sm text-gray-600 text-black/50  dark:text-white"
                     >تذكرني</span
                 >
-            <!-- <Checkbox name="remember"  /> -->
+            <Checkbox name="remember"  />
 
             </label>
             <!-- <Checkbox name="remember" v-model:checked="form.remember" /> -->
@@ -153,17 +154,16 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
 
         <div class="block items-center justify-center">
         <button
-            class="w-full rounded-full bg-pink-500 dark:bg-pink-400 h-11 flex items-center justify-center px-6 py-3 transition hover:bg-pink-600 focus:bg-pink-600 active:bg-pink-800"
-
+            class="w-full rounded-md bg-pink-500  border border-pink-400 dark:bg-slate-900  h-11 flex items-center justify-center px-6 py-3 transition hover:bg-pink-600 focus:bg-pink-600 active:bg-pink-800"
             >
-            <span class="text-base font-semibold text-white dark:text-gray-900">دخول</span>
+            <span class="text-base font-semibold text-whit">دخول</span>
         </button>
         <!-- :class="{ 'opacity-25': form.processing }" -->
         <!-- :disabled="form.processing" -->
-        <router-link to="/" type="reset" class="   p-3 bordered flex justify-center text-center">
-            <span class="text-sm text-center   items-center   tracking-wide text-pink-600 dark:text-pink-400">إنشاء حساب</span>
+        <router-link :to="{name:'index_page'}" type="reset" class=" border mt-1 p-3 rounded-md flex justify-center text-center">
+            <span class="text-sm text-center   items-center   tracking-wide text-pink-600 dark:text-white">إنشاء حساب</span>
         </router-link>
-    </div>
+          </div>
                     </form>
     </div>
 
