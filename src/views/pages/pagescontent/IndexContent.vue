@@ -5,7 +5,7 @@
 
 
 <template> 
-                <div    class="">
+                <div class="">
                     <img
                         id="bg_welcome_page"
                         class="absolute scale-x-[1] left-19  opacity-50  top-60 lg:hidden  md:opacity-7 md:top-50 -rigt-0 md:left-70  md:max-w-[200px] max-w-[200px]"
@@ -24,13 +24,13 @@
                                     <div class="w-full mt-30">
                                         <div class="relative flex justify-center items-center   p-1  dark:border-gray-700 border-primary/10  md:p-2 lg:pr-3">
                                             <div class="md:pr-1.5 lg:pr-0 ">
-                                                <a href="#dresses-section">
+                                                <router-link to="/login">
                                                     <button type="button" title="Start buying" class="relative h-12 text-center px-15 md:px-15 sm:w-auto ml-auto sm:px-6 before:absolute before:inset-0 before:rounded-full before:bg-pink-400 dark:before:bg-primaryLight before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
                                                         <span class="relative text-center text-gray-900 dark:text-white   w-max  font-bold md:block">
                                                             تصفحي
                                                         </span>
                                                     </button>
-                                                </a>
+                                                </router-link>
                                             </div>
                                         </div>
                                     </div>

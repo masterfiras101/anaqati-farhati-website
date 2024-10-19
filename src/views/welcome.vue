@@ -48,7 +48,7 @@ const mobileMenuOpen = ref(false)
                 
     <nav class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
         <div class="flex lg:hidden">
-        <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
+         <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>
             <label  class="block relative z-20 p-6 -mr-6 cursor-pointer lg:hidden">
               <!--

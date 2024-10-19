@@ -11,6 +11,7 @@ import DressesContent from '@/views/pages/pagescontent/DressesContent.vue';
 import AccessoriesContent from '@/views/pages/pagescontent/AccessoriesContent.vue';
 import BeautyCareContent from '@/views/pages/pagescontent/BeautyCareContent.vue';
 import ShoesContent from '@/views/pages/pagescontent/ShoesContent.vue';
+import Login from '@/views/pages/Login.vue';
 
 const routes =
 [
@@ -20,6 +21,14 @@ const routes =
             component: welcome,
             meta: {
                 title: "index page",
+            },
+        },
+        {
+            path: "/login",
+            name: "login_page",
+            component: Login,
+            meta: {
+                title: "Log-in page"
             },
         },
         {
@@ -61,13 +70,12 @@ const routes =
             meta: {
                 title: "shoes page",
             },
-        },
+        },   
         {
             path: '/:pathMatch(.*)*',
             name: 'error404',
             component: error_404,
         },
-      
 ];
 
 
@@ -75,8 +83,8 @@ const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes,
     // scrollBehavior(to, from, savedPosition) {
-    //     return savedPosition || { left: 0, top: 0 }
-    // }
+        //     return savedPosition || { left: 0, top: 0 }
+        // }
      scrollBehavior(to, from, savedPosition) {
         if (to.hash) {
             return {
@@ -84,7 +92,17 @@ const router = createRouter({
                 behavior: 'smooth',
             };
         }
-        return { x: 0, y: 0 };
+        // else{
+        //     if(to.fullPath){
+        //         return {
+        //             selector: to.fullPath,
+        //             behavior: 'smooth',
+        //         };
+        //     }
+        // }
+        // return { x: 0, y: 0 };
+        return savedPosition || { left: 0, top: 0 }
+
     }
 });
 
