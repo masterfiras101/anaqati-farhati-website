@@ -28,7 +28,7 @@ import ThemeToggle from '@/components/ThemeToggle.vue';
                                     <p class=" text-gray-900 dark:font-bold font-semibold font-tharwat text-2xl  dark:text-white">أناقة فرحتي</p>
                                 </div>
                             </router-link>
-                            <div  class="hidden lg:hidden flex justfy-start lg:flex lg:justify-end mt-1 ">
+                            <div  class="hidden lg:hidden  justfy-start  lg:justify-end mt-1">
                                 <div class="inline-flex items-center">
                                     <ThemeToggle/>
                                 </div>

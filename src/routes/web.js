@@ -17,7 +17,7 @@ const routes =
 [
         {
             path: "/",
-            name: "index",
+            name: "index_page",
             component: welcome,
             meta: {
                 title: "index page",

@@ -96,7 +96,7 @@ const mobileMenuOpen = ref(false)
       </div>
     
       <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-              <a href="#footer" v-smooth-scroll class="-mx-3 block bg-slate-100  scroll-smooth rounded-lg px-3 py-2.5 md:dark:bg-pink-200  text-base font-bold leading-7 text-gray-900 hover:bg-pink-50">تسجيل الدخول</a>
+              <router-link  :to="{name:'login_page'}" v-smooth-scroll class="-mx-3 block bg-slate-100  scroll-smooth rounded-lg px-3 py-2.5 md:dark:bg-pink-200  text-base font-bold leading-7 text-gray-900 hover:bg-pink-50">تسجيل الدخول</router-link>
 
       </div>
     </nav>
@@ -135,7 +135,7 @@ const mobileMenuOpen = ref(false)
               <a v-for="item in navigation" :key="item.name" :href="item.href" class="mx-1 block rounded-lg px-3  py-2 text-base font-semibold leading-7  text-gray-900 hover:bg-pink-200">{{ item.name }}</a>
             </div>
             <div class="py-6 text-center">
-              <a  href="#footer" v-smooth-scroll @click="mobileMenuOpen = false"  class=" block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-pink-200">تسجيل الدخول</a>
+              <router-link  :to="{name:'login_page'}" v-smooth-scroll @click="mobileMenuOpen = false"  class=" block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-pink-200">تسجيل الدخول</router-link>
             </div>
           </div>
         </div>
