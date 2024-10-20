@@ -16,14 +16,13 @@ import Footer from '@/components/Footer.vue';
 import BeautyCareContent from './pages/pagescontent/BeautyCareContent.vue';
 import AccessoriesContent from './pages/pagescontent/AccessoriesContent.vue';
 import ShoesContent from './pages/pagescontent/ShoesContent.vue';
+import ScrollToTopButton from '@/components/ScrollToTopButton.vue';
 
 
 
 const navigation = [
   { name: 'فساتين الزفاف', href: '#dresses-section' },
   { name: 'الإكسسوارات', href: '#accessories-section' },
-  { name: 'العناية بالجمال', href: '#beautycare-section' },
-  { name: 'الأحذية', href: '#shoes-section' },
 ]
 
 const mobileMenuOpen = ref(false)
@@ -44,7 +43,7 @@ const mobileMenuOpen = ref(false)
             class="selection:bg-[#f472b6] selection:text-white"
             >
 
-              <header>
+              <header class="fixed z-20 w-full">
                 
     <nav class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
         <div class="flex lg:hidden">
@@ -81,8 +80,8 @@ const mobileMenuOpen = ref(false)
         </button>
         </div>
         <div class="flex   lg:flex-1 z-999">
-          <a href="#" :class="{'hidden':mobileMenuOpen}" class="-m-1.5 p-2.5">
-            <p class=" text-gray-900 dark:font-bold font-semibold font-tharwat text-2xl  dark:text-white">أناقة فرحتي</p>
+          <a href="#" :class="{'hidden':mobileMenuOpen}" class="-m-1.5 ml-4 spqce-x-3 p-2.5">
+            <p class=" text-gray-900 dark:font-bold font-semibold  lg:pt-0 font-tharwat text-2xl  dark:text-white">أناقة فرحتي</p>
           </a>
           </div>
           <div class="flex justfy-start lg:flex lg:justify-end mt-1 ">
@@ -150,25 +149,31 @@ const mobileMenuOpen = ref(false)
          </div>
 </div>
 
-<section class="bg-gray-50 border border-b-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="dresses-section">
+<section class="bg-gray-50 py-10 border border-b-12 border-pink-300 rounded-bl-[30px] rounded-br-[50px]  dark:bg-slate-900 text-black/50  dark:text-white/50" id="dresses-section">
     <DressesContent/>
 </section>
-<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="beautycare-section">
-    <BeautyCareContent/>
-</section>
-<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="accessories-section">
-
-    <AccessoriesContent/>
-  </section>
-<section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="shoes-section">
-
-      <ShoesContent/>
-  </section>
+<!--
+    <section class="bg-gray-50 border rounded-b-xl border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="beautycare-section">
+        <BeautyCareContent/>
+    </section>
+  -->
+  <!--
+    <section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="accessories-section">
+    
+        <AccessoriesContent/>
+      </section>
+    <section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="shoes-section">
+    
+          <ShoesContent/>
+      </section>
+    -->
   
 
 
-<section id="footer">
+<section id="footer" class=" abdolute" >
   <Footer/>
+    <ScrollToTopButton/>
 </section>
+
 
 </template>

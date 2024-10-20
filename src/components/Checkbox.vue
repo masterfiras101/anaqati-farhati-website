@@ -33,6 +33,7 @@ const proxyChecked = computed({
 
 <div class="inline-flex items-center">
   <label class="flex items-center cursor-pointer relative">
+    
     <input  class="peer h-5 w-5 cursor-pointer transition-all appearance-none rounded shadow hover:shadow-md border border-slate-300 checked:bg-#f472b6 checked:border-pink-600" 
         type="checkbox"
         :value="props.value"

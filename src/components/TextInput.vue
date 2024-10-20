@@ -46,6 +46,6 @@ defineExpose({ focus: () => input.value.focus() });
 
 <template>
     <input ref="input" :type="props.type" :value="props.modelValue" :placeholder="props.placeholder" :autocomplete="props.autocomplete" :required="props.required"   @input="$emit('update:modelValue', $event.target.value)"   
-    class="block w-full py-2 px-8 lg:px-15 x  text-center text-gray-700 bg-white  border-[0.2px] rounded-lg  dark:bg-gray-900 dark:text-gray-300 dark:border-pink-600 focus:border-pink-400 dark:focus:border-pink-300 focus:ring-pink-300 focus:outline-none focus:ring focus:ring-opacity-40"
+    class="block w-full  py-2 px-12   text-center text-gray-700 bg-white  border-[0.2px] rounded-lg  dark:bg-gray-900 dark:text-gray-300 dark:border-pink-600 focus:border-pink-400 dark:focus:border-pink-300 focus:ring-pink-300 focus:outline-none focus:ring focus:ring-opacity-40"
     >
 </template>

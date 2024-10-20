@@ -1,103 +1,132 @@
 [
-    {
-        "id": 1,
-        "path": "/src/assets/imgs/Dresses/d_1.jpg",
-        "fabric_type": "فستان زفاف ",
-        "care_instructions": "غسيل يدوي فقط",
-        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن",
-        "closure_type": "فستان زفاف بسحاب",
-        "date": "2024-10-15"
-    },
-    {
-        "id": 2,
-        "path": "/src/assets/imgs/Dresses/d_2.jpg",
-        "fabric_type": "فستان زفاف ",
-        "care_instructions": "غسيل يدوي فقط",
-        "about_dresse": "فستان زفاف  الناعم والمريح، فساتين زفاف ببطانة ، فساتين زفاف بوهو بحمالة صدر مدمجة",
-        "closure_type": "فستان زفاف بسحاب",
-        "date": "2024-10-15"
-    },
-
-     {
-        "id": 3,
-        "path": "/src/assets/imgs/Dresses/d_3.jpg",
-        "fabric_type": "فستان زفاف ",
-        "care_instructions": "غسيل يدوي فقط",
-        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن",
-        "closure_type": "فستان زفاف بسحاب",
-        "date": "2024-10-15"
-    },
-
-     {
-        "id": 4,
-        "path": "/src/assets/imgs/Dresses/d_4.jpg",
-        "fabric_type": "فستان زفاف ",
-        "care_instructions": "غسيل يدوي فقط",
-        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-        "closure_type": "فستان زفاف بسحاب",
-        "date": "2024-10-15"
-    },
-     {
-        "id": 5,
-        "path": "/src/assets/imgs/Dresses/d_5.jpg",
-        "fabric_type": "فستان زفاف ",
-        "care_instructions": "غسيل يدوي فقط",
-        "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-        "closure_type": "فستان زفاف بسحاب",
-        "date": "2024-10-15"
-    },
-        {
-            "id": 6,
-            "path": "/src/assets/imgs/Dresses/d_6.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        },
-        {
-            "id": 7,
-            "path": "/src/assets/imgs/Dresses/d_7.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        },
-        {
-            "id": 8,
-            "path": "/src/assets/imgs/Dresses/d_8.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        },
-        {
-            "id": 9,
-            "path": "/src/assets/imgs/Dresses/d_9.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        },
-        {
-            "id": 10,
-            "path": "/src/assets/imgs/Dresses/d_10.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        },
-        {
-            "id": 11,
-            "path": "/src/assets/imgs/Dresses/d_11.jpg",
-            "fabric_type": "فستان زفاف ",
-            "care_instructions": "غسيل يدوي فقط",
-            "about_dresse": "فستان زفاف  الناعم والمريح، فستان زفاف من التول الفضفاض، فساتين زفاف ببطانة خفيفة الوزن، ",
-            "closure_type": "فستان زفاف بسحاب",
-            "date": "2024-10-15"
-        }
+  {
+    "id": 1,
+    "name": "فستان صيفي أنيق",
+    "description": "فستان صيفي مزخرف جميل، مثالي لكل المناسبات.",
+    "price": 49.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
+    ],
+    "date": "2024-10-01"
+  },
+  {
+    "id": 2,
+    "name": "فستان سهره جذاب",
+    "description": "فستان سهره مميز بلمسة من السحر والأناقة.",
+    "price": 89.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
+    ],
+    "date": "2024-10-02"
+  },
+  {
+    "id": 3,
+    "name": "فستان زفاف رومانسي",
+    "description": "فستان زفاف رائع يجعلك تتألقين في يومك الخاص.",
+    "price": 299.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
+    ],
+    "date": "2024-10-03"
+  },
+  {
+    "id": 4,
+    "name": "فستان كاجوال مريح",
+    "description": "فستان كاجوال يناسب الاستخدام اليومي والمناسبات البسيطة.",
+    "price": 39.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_10.jpg",
+      "/src/assets/imgs/Dresses/d_11.jpg"
+    ],
+    "date": "2024-10-04"
+  },
+  {
+    "id": 5,
+    "name": "فستان سهرة قصير",
+    "description": "فستان سهرة قصير يجمع بين الأناقة والراحة.",
+    "price": 59.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
+    ],
+    "date": "2024-10-05"
+  },
+  {
+    "id": 6,
+    "name": "فستان صيفي ملوّن",
+    "description": "فستان صيفي بألوان زاهية، مثالي للأيام المشمسة.",
+    "price": 44.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
+    ],
+    "date": "2024-10-06"
+  },
+  {
+    "id": 7,
+    "name": "فستان رسمي أنيق",
+    "description": "فستان رسمي يضفي لمسة من الأناقة على أي مناسبة.",
+    "price": 109.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
+    ],
+    "date": "2024-10-07"
+  },
+  {
+    "id": 8,
+    "name": "فستان صيفي قصير",
+    "description": "فستان صيفي قصير يجمع بين الأناقة والراحة.",
+    "price": 49.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_10.jpg",
+      "/src/assets/imgs/Dresses/d_11.jpg"
+    ],
+    "date": "2024-10-08"
+  },
+  {
+    "id": 9,
+    "name": "فستان مزخرف",
+    "description": "فستان مزخرف بألوان زاهية يناسب كل الأوقات.",
+    "price": 54.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
+    ],
+    "date": "2024-10-09"
+  },
+  {
+    "id": 10,
+    "name": "فستان زفاف بسيط",
+    "description": "فستان زفاف بسيط وأنيق، مثالي للعرائس اللواتي يحببن البساطة.",
+    "price": 199.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
+    ],
+    "date": "2024-10-10"
+  },
+  {
+    "id": 11,
+    "name": "فستان كاجوال طويل",
+    "description": "فستان كاجوال طويل يناسب الأيام يناسب الباردة.",
+    "price": 69.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
+    ],
+    "date": "2024-10-11"
+  }
 ]
