@@ -6,17 +6,20 @@
 
 
 <script setup>
-import ThemeToggle from '@/components/ThemeToggle.vue';
+import { ref} from 'vue';
 
-// import ImageLoader from '@/composables/imagesLoader';
-import { ref } from 'vue'
+import ThemeToggle from '@/components/ThemeToggle.vue';
 import IndexContent from './pages/pagescontent/IndexContent.vue';
 import DressesContent from './pages/pagescontent/DressesContent.vue';
 import Footer from '@/components/Footer.vue';
-import BeautyCareContent from './pages/pagescontent/BeautyCareContent.vue';
-import AccessoriesContent from './pages/pagescontent/AccessoriesContent.vue';
-import ShoesContent from './pages/pagescontent/ShoesContent.vue';
+// import ImageLoader from '@/composables/imagesLoader';
+// import BeautyCareContent from './pages/pagescontent/BeautyCareContent.vue';
+// import AccessoriesContent from './pages/pagescontent/AccessoriesContent.vue';
+// import ShoesContent from './pages/pagescontent/ShoesContent.vue';
 import ScrollToTopButton from '@/components/ScrollToTopButton.vue';
+
+import { useScrollShadow } from '@/composables/useScrollShadow';
+const { isScrolled } = useScrollShadow();
 
 
 
@@ -45,7 +48,7 @@ const mobileMenuOpen = ref(false)
 
               <header class="fixed z-20 w-full">
                 
-    <nav class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
+    <nav :class="['fixed top-0 w-full transition-shadow duration-300', isScrolled ? 'shadow-none' : 'shadow-lg']"  class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
         <div class="flex lg:hidden">
          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>
