@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 <script setup>
 import { ref} from 'vue';
 
@@ -25,6 +19,8 @@ const { isScrolled } = useScrollShadow();
 
 const navigation = [
   { name: 'فساتين الزفاف', href: '#dresses-section' },
+  { name: 'فساتين للشراء', href: '#buy-dresses-section' },
+  { name: 'فساتين للإيجار', href: '#rent-dresses-section' },
   { name: 'الإكسسوارات', href: '#accessories-section' },
 ]
 
@@ -48,7 +44,7 @@ const mobileMenuOpen = ref(false)
 
               <header class="fixed z-20 w-full">
                 
-    <nav :class="['fixed top-0 w-full transition-shadow duration-300', isScrolled ? 'shadow-none' : 'shadow-lg']"  class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
+    <nav :class="['fixed top-0 w-full transition-shadow duration-300', isScrolled ?  'shadow-none dark:bg-slate-800' : 'shadow-lg']"  class="flex items-center shadow-pink-400 shadow-lg  justify-between px-3 lg:py-4 lg:px-8" aria-label="Global">
         <div class="flex lg:hidden">
          <button type="button" class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700" @click="mobileMenuOpen = true">
           <span class="sr-only">Open main menu</span>

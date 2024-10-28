@@ -12,6 +12,7 @@ import AccessoriesContent from '@/views/pages/pagescontent/AccessoriesContent.vu
 import BeautyCareContent from '@/views/pages/pagescontent/BeautyCareContent.vue';
 import ShoesContent from '@/views/pages/pagescontent/ShoesContent.vue';
 import Login from '@/views/pages/Login.vue';
+import ProductsDetails from '@/views/pages/details/ProductsDetails.vue';
 
 const routes =
 [
@@ -67,6 +68,14 @@ const routes =
             path: "/#shoes-section",
             name: "shoes_section",
             component: ShoesContent,
+            meta: {
+                title: "shoes page",
+            },
+        },
+        {
+            path: '/products/:id',
+            name: 'ProductstDetails',
+            component: ProductsDetails,
             meta: {
                 title: "shoes page",
             },

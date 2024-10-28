@@ -8,10 +8,10 @@ import {ref} from 'vue';
 
 import Dresses_Data from '@/data/dresses-data.json';
 
-// import Dresses_Data from '/src/data/dresses-data'
 const  dresses_data_json = ref(Dresses_Data);
 import ProductsCard from '@/components/ProductsCard.vue';
 
+// import Dresses_Data from '/src/data/dresses-data'
 
 </script>
 

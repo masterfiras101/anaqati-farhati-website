@@ -1,6 +1,11 @@
 <template>
-  <div class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
-    <div class="relative">
+  <div
+    class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer"
+  >
+    <div 
+    
+    
+    class="relative">
       <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
         <img
           v-for="img in product.images"
@@ -10,18 +15,18 @@
           class="w-full h-48 object-cover rounded-lg shadow-md"
         />
       </div>
-      <!-- <button
-        @click="scrollLeft"
-        class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white rounded-full p-2"
+      <button
+        @click.stop="scrollLeft"
+        class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2"
       >
-        &lt;
+        <img class="w-7 mr-1" src="../assets/imgs/svg/ic-left-arrow.svg" alt="Cart Icon" />
       </button>
       <button
-        @click="scrollRight"
-        class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-600 text-white rounded-full p-2"
+        @click.stop="scrollRight"
+        class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2"
       >
-        &gt;
-      </button> -->
+        <img class="w-7 mr-1" src="../assets/imgs/svg/ic-right-arrow.svg" alt="Cart Icon" />
+      </button>
     </div>
     <div class="p-4">
       <h3 class="text-lg font-semibold text-gray-800">{{ product.name }}</h3>
@@ -30,22 +35,16 @@
       <p class="text-pink-600 font-bold mt-2">{{ product.price.toFixed(2) }} ر.ي</p>
     </div>
     <div class="flex justify-between items-center p-2">
-      <button
-        @click="toggleFavorite"
-        class="flex items-center text-pink-500"
-      >
+      <button @click="toggleFavorite" class="flex items-center text-pink-500">
         <img
           :src="isFavorite ? 'src/assets/imgs/svg/ic_favorite_filled.svg' : 'src/assets/imgs/svg/ic_favorite_outline.svg'"
           alt="Favorite Icon"
           class="w-6 h-6"
         />
       </button>
-      <button
-        @click="openModal"
-        class="bg-pink-500 text-white flex font-bold py-1 px-3 rounded"
-      >
+      <button @click="openModal" class="bg-pink-500 text-white flex font-bold py-1 px-3 rounded">
         أضف إلى السلة
-        <img class="w-7 mr-1" src="../assets/imgs/svg/ic_cart_2.svg" alt="Cart Icon">
+        <img class="w-7 mr-1" src="../assets/imgs/svg/ic_cart_2.svg" alt="Cart Icon" />
       </button>
     </div>
     <ProductsModal
@@ -58,6 +57,7 @@
 
 <script setup>
 import { ref, defineProps } from 'vue';
+import { useRouter } from 'vue-router'; // استيراد useRouter
 import ProductsModal from './ProductsModal.vue';
 
 const props = defineProps({
@@ -70,10 +70,13 @@ const props = defineProps({
 const modalOpen = ref(false);
 const scrollContainer = ref(null);
 const isFavorite = ref(false); // Track the favorite state
+const router = useRouter(); // الحصول على مثيل router
 
 const openModal = () => {
   modalOpen.value = true;
 };
+
+
 
 const scrollLeft = () => {
   if (scrollContainer.value) {
@@ -99,6 +102,8 @@ const scrollRight = () => {
 const toggleFavorite = () => {
   isFavorite.value = !isFavorite.value;
 };
+
+
 </script>
 
 <style>
@@ -110,36 +115,3 @@ const toggleFavorite = () => {
   display: none; /* Safari and Chrome */
 }
 </style>
-
-
-
-<!-- <script setup>
-import { ref, defineProps } from 'vue';
-import ProductsModal from './ProductsModal.vue';
-
-
-const props = defineProps({
-  product: {
-    type: Object,
-    required: true,
-  },
-});
-
-const modalOpen = ref(false);
-
-const openModal = () => {
-  modalOpen.value = true;
-}; 
-</script>
--->
-
-<!-- // <style scoped>
-// .scrollbar-hide::-webkit-scrollbar {
-//   display: none;
-// }
-
-// .scrollbar-hide {
-//   -ms-overflow-style: none; /* Internet Explorer and Edge */
-//   scrollbar-width: none; /* Firefox */
-// }
-// </style> -->
