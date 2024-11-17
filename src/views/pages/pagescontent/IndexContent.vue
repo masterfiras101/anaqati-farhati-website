@@ -17,8 +17,8 @@
                         <div class="relative flex text-center  lg:items-center">
                             <div class="  md:mt-12 lg:mt-0 sm:w-10/12 md:w-2/3 sm:mx-auto lg:mr-auto lg:w-6/12 "  >
                                 <div class="-mt-10">
-                                    <h1 class="text-gray-900 font-bold  text-4xl md:text-6xl lg:text-5xl xl:text-6xl dark:text-white tracking-wide">اكتشفي!<span class="text-pink-400 px-1 py-1 dark:text-primaryLight tracking-wider sr-only">متجر فرحتي</span><p class=" text-pink-400 mt-2 dark:font-bold font-semibold font-tharwat text-3xl  dark:text-pink-400">متجر أناقة فرحتي </p></h1>
-                                    <p class="mt-20 text-xl font-semibold text-gray-900 dark:text-gray-300">أهلاً بك في عالم الأحلام! في متجر فرحتي، نُقدم لكِ تجربة تسوق فريدة تُحقق لكِ كل ما تتمنينه ليومك الكبير. استمتعي باكتشاف مجموعة مذهلة من فساتين الزفاف المصممة بأناقة.</p>
+                                    <h1 class="text-gray-900 font-bold  text-4xl md:text-6xl lg:text-5xl xl:text-6xl dark:text-white tracking-wide">اكتشفي!<span class="text-pink-400 px-1 py-1 dark:text-primaryLight tracking-wider sr-only">متجر أناقة فرحتي </span><p class=" text-pink-400 mt-2 dark:font-bold font-semibold font-tharwat text-3xl  dark:text-pink-400">متجر أناقة فرحتي </p></h1>
+                                    <p class="mt-20 text-xl font-semibold text-gray-900 dark:text-gray-300">أهلاً بك في عالم الأحلام! في متجر أناقة فرحتي، نُقدم لكِ تجربة تسوق فريدة تُحقق لكِ كل ما تتمنينه ليومك الكبير. استمتعي باكتشاف مجموعة مذهلة من فساتين الزفاف المصممة بأناقة.</p>
                                 </div>
                                 <div>
                                     <div class="w-full mt-30">

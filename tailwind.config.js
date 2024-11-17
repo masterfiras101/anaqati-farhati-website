@@ -268,6 +268,10 @@ export default {
         5: "0px 1px 5px rgba(0, 0, 0, 0.2)",
       },
       keyframes: {
+        'slide-up': {
+          '0%': { transform: 'translateY(0)', opacity: '1' },      // Start at the center, visible
+          '100%': { transform: 'translateY(-100%)', opacity: '0' } // Move above, hidden
+        },
         linspin: {
           "100%": { transform: "rotate(360deg)" },
         },
@@ -305,6 +309,7 @@ export default {
         },
       },
       animation: {
+        fadeslide: "slide-up 1.5s ease-out forwards",
         linspin: "linspin 1568.2353ms linear infinite",
         easespin: "easespin 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both",
         "left-spin":
@@ -323,4 +328,3 @@ export default {
     },
   plugins: [],
 }
-

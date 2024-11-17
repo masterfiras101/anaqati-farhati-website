@@ -45,7 +45,6 @@ const form = ref({
                                 <!-- <span class="text-base font-bold text-blue-600 dark:text-white">OssolTrust أصول ترست</span> -->
                                 <div class="flex lg:flex-1 z-999 ml-7 items-center justify-center">
                                     <!-- <p class=" text-gray-900 dark:font-bold font-semibold font-tharwat text-2xl  dark:text-white">أناقة فرحتي</p> -->
-                                 <h3 class="text-2xl font-semibold text-center text-gray-700 dark:text-white">قم بتسجيل الدخول</h3>
 
                                     
                                 </div>
@@ -80,7 +79,7 @@ const form = ref({
                         <div class="navmenu hidden w-full flex-wrap justify-end items-center mb-16 space-y-8 p-6 border border-gray-100 rounded-3xl shadow-2xl shadow-gray-300/20 bg-white dark:bg-slate-900     lg:space-y-0 lg:p-0 lg:m-0 lg:flex md:flex-nowrap lg:bg-transparent lg:w-7/12 lg:shadow-none dark:shadow-none dark:border-gray-700 lg:border-0">
                             <div class="w-full space-y-2 border-blue-600/10 dark:border-blue-600 flex flex-col -ml-1 sm:flex-row lg:space-y-0 md:w-max lg:border-l">
                                 <router-link :to="{name:'index_page'}"  class="relative flex h-9 ml-auto items-center justify-center sm:px-6 before:absolute before:inset-0 before:rounded-full focus:before:bg-primary/10 dark:focus:before:bg-primaryLight/10 before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95">
-                                    <span class="relative text-bold font-semibold text-blue-600  dark:text-primaryLight">خروج</span>
+                                    <span class="relative text-bold font-semibold text-pink-300  dark:text-primaryLight">خروج</span>
                                 </router-link>
                             
                             </div>

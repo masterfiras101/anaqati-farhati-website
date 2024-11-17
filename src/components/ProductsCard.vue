@@ -1,30 +1,17 @@
 <template>
-  <div
-    class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer"
-  >
-    <div 
-    
-    
-    class="relative">
+  <div v-animateonscroll="{ enterClass: 'animate-fadeinleft', leaveClass: 'animate-fadeoutleft' }"
+    class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer animate-duration-1000 animate-ease-in-out ">
+    <div class="relative">
       <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
-        <img
-          v-for="img in product.images"
-          :key="img"
-          :src="img"
-          alt="Product Image"
-          class="w-full h-48 object-cover rounded-lg shadow-md"
-        />
+        <img v-for="img in product.images" :key="img" :src="img" alt="Product Image"
+          class="w-full h-48 object-cover rounded-lg shadow-md" />
       </div>
-      <button
-        @click.stop="scrollLeft"
-        class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2"
-      >
+      <button @click.stop="scrollLeft"
+        class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2">
         <img class="w-7 mr-1" src="../assets/imgs/svg/ic-left-arrow.svg" alt="Cart Icon" />
       </button>
-      <button
-        @click.stop="scrollRight"
-        class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2"
-      >
+      <button @click.stop="scrollRight"
+        class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2">
         <img class="w-7 mr-1" src="../assets/imgs/svg/ic-right-arrow.svg" alt="Cart Icon" />
       </button>
     </div>
@@ -38,20 +25,14 @@
       <button @click="toggleFavorite" class="flex items-center text-pink-500">
         <img
           :src="isFavorite ? 'src/assets/imgs/svg/ic_favorite_filled.svg' : 'src/assets/imgs/svg/ic_favorite_outline.svg'"
-          alt="Favorite Icon"
-          class="w-6 h-6"
-        />
+          alt="Favorite Icon" class="w-6 h-6" />
       </button>
       <button @click="openModal" class="bg-pink-500 text-white flex font-bold py-1 px-3 rounded">
         أضف إلى السلة
         <img class="w-7 mr-1" src="../assets/imgs/svg/ic_cart_2.svg" alt="Cart Icon" />
       </button>
     </div>
-    <ProductsModal
-      :isOpen="modalOpen"
-      :product="product"
-      @close="modalOpen = false"
-    />
+    <ProductsModal :isOpen="modalOpen" :product="product" @close="modalOpen = false" />
   </div>
 </template>
 

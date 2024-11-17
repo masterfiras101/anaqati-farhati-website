@@ -128,5 +128,17 @@
       "/src/assets/imgs/Dresses/d_9.jpg"
     ],
     "date": "2024-10-11"
+  },
+  {
+    "id": 12,
+    "name": "فستان كاجوال طويل",
+    "description": "فستان كاجوال طويل يناسب الأيام يناسب الباردة.",
+    "price": 69.99,
+    "images": [
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
+    ],
+    "date": "2024-10-11"
   }
 ]

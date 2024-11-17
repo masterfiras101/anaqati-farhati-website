@@ -23,10 +23,8 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { useRoute } from 'vue-router';
 import Dresses_Data from '@/data/dresses-data.json';
 
-const route = useRoute();
 const product = ref(null);
 
 // Function to get product data by ID (similar to your getCategoryData)

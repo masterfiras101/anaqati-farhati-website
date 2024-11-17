@@ -1,16 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
-
 import welcome from '@/views/welcome.vue';
 import error_404 from '@/views/pages/error_404.vue';
-
-
-
 import IndexContent from '@/views/pages/pagescontent/IndexContent.vue';
 import DressesContent from '@/views/pages/pagescontent/DressesContent.vue';
 import AccessoriesContent from '@/views/pages/pagescontent/AccessoriesContent.vue';
-import BeautyCareContent from '@/views/pages/pagescontent/BeautyCareContent.vue';
-import ShoesContent from '@/views/pages/pagescontent/ShoesContent.vue';
 import Login from '@/views/pages/Login.vue';
 import ProductsDetails from '@/views/pages/details/ProductsDetails.vue';
 
@@ -56,22 +49,7 @@ const routes =
                 title: "accessories page",
             },
         },
-        {
-            path: "/#beautycare-section",
-            name: "beautycare_section",
-            component: BeautyCareContent,
-            meta: {
-                title: "beautycare page",
-            },
-        },
-        {
-            path: "/#shoes-section",
-            name: "shoes_section",
-            component: ShoesContent,
-            meta: {
-                title: "shoes page",
-            },
-        },
+
         {
             path: '/products/:id',
             name: 'ProductstDetails',
