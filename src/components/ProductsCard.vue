@@ -1,6 +1,7 @@
 <template>
   <div v-animateonscroll="{ enterClass: 'animate-fadeinleft', leaveClass: 'animate-fadeoutleft' }"
-    class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer animate-duration-1000 animate-ease-in-out ">
+    class="max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer animate-duration-10000 animate-ease-in-out "
+    :class="`max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer animate-duration-${product.duration} animate-ease-in-out`">
     <div class="relative">
       <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
         <img v-for="img in product.images" :key="img" :src="img" alt="Product Image"

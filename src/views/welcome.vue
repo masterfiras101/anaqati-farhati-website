@@ -13,9 +13,9 @@ const mobileMenuOpen = ref(false)
 
 const navigation = [
   { name: 'فساتين الزفاف', href: '#dresses-section' },
-  { name: 'فساتين للشراء', href: '#buy-dresses-section' },
-  { name: 'فساتين للإيجار', href: '#rent-dresses-section' },
-  { name: 'الإكسسوارات', href: '#accessories-section' },
+  { name: 'فساتين للشراء', href: '#dresses-section' },
+  { name: 'فساتين للإيجار', href: '#dresses-section' },
+  { name: 'الإكسسوارات', href: '#dresses-section' },
 ]
 
 
@@ -151,26 +151,6 @@ const navigation = [
     id="dresses-section">
     <DressesContent />
   </section>
-
-
-
-  <!--
-    <section class="bg-gray-50 border rounded-b-xl border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="beautycare-section">
-        <BeautyCareContent/>
-    </section>
-  -->
-  <!--
-    <section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="accessories-section">
-    
-        <AccessoriesContent/>
-      </section>
-    <section class="bg-gray-50 border border-t-0 border-pink-300 dark:bg-slate-900 text-black/50  dark:text-white/50" id="shoes-section">
-    
-          <ShoesContent/>
-      </section>
-    -->
-
-
 
   <section id="footer" class=" abdolute">
     <Footer />
