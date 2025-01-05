@@ -6,7 +6,7 @@
       <h2 class="text-xl font-bold text-gray-800 mb-4">تفاصيل المنتج</h2>
       <div class="relative">
         <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
-          <img v-for="img in product.images" :key="img" :src="img" alt="Product Image"
+          <img v-for="img in product.images" :key="img" :src="getImagePath(img)" alt="Product Image"
             class="w-full h-48 object-cover rounded-lg shadow-md" />
         </div>
         <button @click.stop="scrollLeft"
@@ -46,7 +46,9 @@ const props = defineProps({
     required: true,
   },
 });
-
+const getImagePath = (imageName) => {
+  return new URL(`../assets/imgs/Dresses/${imageName}`, import.meta.url).href;
+};
 const closeModal = () => {
   emit('close'); // Emit the close event
 };

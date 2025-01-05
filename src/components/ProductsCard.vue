@@ -4,17 +4,17 @@
     :class="`max-w-xs mx-auto bg-white rounded-lg shadow-lg overflow-hidden cursor-pointer animate-duration-${product.duration} animate-ease-in-out`">
     <div class="relative">
       <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
-        <img v-for="img in product.images" :key="img" :src="img" alt="Product Image"
+        <img v-for="img in product.images" :key="img" :src="getImagePath(img)" alt="Product Image"
           class="w-full h-48 object-cover rounded-lg shadow-md" />
-          <img src="" alt="" srcset="">
+        <!-- <img src="" alt="" srcset=""> -->
       </div>
       <button @click.stop="scrollLeft"
         class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2">
-        <img class="w-7 mr-1" src="../assets/imgs/svg/ic-left-arrow.svg" alt="Cart Icon" />
+        <img class="w-7 mr-1" src="@/assets/imgs/svg/ic-left-arrow.svg" alt="Cart Icon" />
       </button>
       <button @click.stop="scrollRight"
         class="absolute right-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2">
-        <img class="w-7 mr-1" src="../assets/imgs/svg/ic-right-arrow.svg" alt="Cart Icon" />
+        <img class="w-7 mr-1" src="@/assets/imgs/svg/ic-right-arrow.svg" alt="Cart Icon" />
       </button>
     </div>
     <div class="p-4">
@@ -46,14 +46,17 @@ import ProductsModal from './ProductsModal.vue';
 const props = defineProps({
   product: {
     type: Object,
-    required: true,
+    required: true, 
   },
 });
 
+const getImagePath = (imageName) => {
+  return new URL(`../assets/imgs/Dresses/${imageName}`, import.meta.url).href;
+};
 const modalOpen = ref(false);
 const scrollContainer = ref(null);
-const isFavorite = ref(false); // Track the favorite state
-const router = useRouter(); // الحصول على مثيل router
+const isFavorite = ref(false);
+const router = useRouter(); 
 
 const openModal = () => {
   modalOpen.value = true;
@@ -65,17 +68,17 @@ const scrollLeft = () => {
   if (scrollContainer.value) {
     scrollContainer.value.scrollBy({
       top: 0,
-      left: -200, // Adjust the scroll distance as needed
+      left: -200,
       behavior: 'smooth',
     });
   }
 };
-
+// Adjust the scroll distance as needed
 const scrollRight = () => {
   if (scrollContainer.value) {
     scrollContainer.value.scrollBy({
       top: 0,
-      left: 200, // Adjust the scroll distance as needed
+      left: 200, 
       behavior: 'smooth',
     });
   }
