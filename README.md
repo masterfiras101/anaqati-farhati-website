@@ -1,5 +1,9 @@
-# Vue 3 + Vite
+# Anaqat Farhati Website - A website for learning only **(wedding dresses)**
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Laptop Screenshots
+![a-img](https://github.com/user-attachments/assets/f4c18485-b395-4395-84ab-93df0df808cf)
+![b-img](https://github.com/user-attachments/assets/d27581f5-7583-4bbb-87aa-5f2f23b3a4a4)
+
+
+To live demo [anaqat-farhati](https://masterfiras101.github.io/anaqat-farhati-website/)
