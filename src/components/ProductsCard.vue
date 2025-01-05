@@ -26,12 +26,12 @@
     <div class="flex justify-between items-center p-2">
       <button @click="toggleFavorite" class="flex items-center text-pink-500">
         <img
-          :src="isFavorite ? 'src/assets/imgs/svg/ic_favorite_filled.svg' : 'src/assets/imgs/svg/ic_favorite_outline.svg'"
+          :src="isFavorite ? icFavoriteFilled : icFavoriteOutline"
           alt="Favorite Icon" class="w-6 h-6" />
       </button>
       <button @click="openModal" class="bg-pink-500 text-white flex font-bold py-1 px-3 rounded">
         أضف إلى السلة
-        <img class="w-7 mr-1" src="../assets/imgs/svg/ic_cart_2.svg" alt="Cart Icon" />
+        <img class="w-7 mr-1" src="@/assets/imgs/svg/ic_cart_2.svg" alt="Cart Icon" />
       </button>
     </div>
     <ProductsModal :isOpen="modalOpen" :product="product" @close="modalOpen = false" />
@@ -39,6 +39,8 @@
 </template>
 
 <script setup>
+import icFavoriteFilled from '@/assets/imgs/svg/ic_favorite_filled.svg';
+import icFavoriteOutline from '@/assets/imgs/svg/ic_favorite_outline.svg';
 import { ref, defineProps } from 'vue';
 import { useRouter } from 'vue-router'; 
 import ProductsModal from './ProductsModal.vue';
