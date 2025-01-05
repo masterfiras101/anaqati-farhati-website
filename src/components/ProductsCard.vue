@@ -40,7 +40,7 @@
 
 <script setup>
 import { ref, defineProps } from 'vue';
-import { useRouter } from 'vue-router'; // استيراد useRouter
+import { useRouter } from 'vue-router'; 
 import ProductsModal from './ProductsModal.vue';
 
 const props = defineProps({
