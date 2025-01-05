@@ -6,6 +6,7 @@
       <div class="flex overflow-x-auto space-x-2 p-4 scrollbar-hide" ref="scrollContainer">
         <img v-for="img in product.images" :key="img" :src="img" alt="Product Image"
           class="w-full h-48 object-cover rounded-lg shadow-md" />
+          <img src="" alt="" srcset="">
       </div>
       <button @click.stop="scrollLeft"
         class="absolute left-0 top-1/2 transform -translate-y-1/2 text-white rounded-full p-2">
