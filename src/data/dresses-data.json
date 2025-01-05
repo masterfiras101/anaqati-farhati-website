@@ -5,9 +5,9 @@
     "description": "فستان صيفي مزخرف جميل، مثالي لكل المناسبات.",
     "price": 49.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_1.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_2.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_3.jpg"
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
     ],
     "date": "2024-10-01",
     "duration":1000
@@ -18,9 +18,9 @@
     "description": "فستان سهره مميز بلمسة من السحر والأناقة.",
     "price": 89.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_4.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_5.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_6.jpg"
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
     ],
     "date": "2024-10-02",
     "duration": 4000
@@ -31,9 +31,9 @@
     "description": "فستان زفاف رائع يجعلك تتألقين في يومك الخاص.",
     "price": 299.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_7.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_8.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_9.jpg"
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
     ],
     "date": "2024-10-03",
     "duration": 6000
@@ -44,8 +44,8 @@
     "description": "فستان كاجوال يناسب الاستخدام اليومي والمناسبات البسيطة.",
     "price": 39.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_10.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_11.jpg"
+      "/src/assets/imgs/Dresses/d_10.jpg",
+      "/src/assets/imgs/Dresses/d_11.jpg"
     ],
     "date": "2024-10-04",
     "duration": 8000
@@ -56,9 +56,9 @@
     "description": "فستان سهرة قصير يجمع بين الأناقة والراحة.",
     "price": 59.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_1.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_2.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_3.jpg"
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
     ],
     "date": "2024-10-05",
     "duration": 10000
@@ -69,9 +69,9 @@
     "description": "فستان صيفي بألوان زاهية، مثالي للأيام المشمسة.",
     "price": 44.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_4.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_5.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_6.jpg"
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
     ],
     "date": "2024-10-06",
     "duration": 12000
@@ -82,9 +82,9 @@
     "description": "فستان رسمي يضفي لمسة من الأناقة على أي مناسبة.",
     "price": 109.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_7.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_8.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_9.jpg"
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
     ],
     "date": "2024-10-07",
     "duration": 13000
@@ -95,8 +95,8 @@
     "description": "فستان صيفي قصير يجمع بين الأناقة والراحة.",
     "price": 49.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_10.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_11.jpg"
+      "/src/assets/imgs/Dresses/d_10.jpg",
+      "/src/assets/imgs/Dresses/d_11.jpg"
     ],
     "date": "2024-10-08",
     "duration": 8000
@@ -107,9 +107,9 @@
     "description": "فستان مزخرف بألوان زاهية يناسب كل الأوقات.",
     "price": 54.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_1.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_2.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_3.jpg"
+      "/src/assets/imgs/Dresses/d_1.jpg",
+      "/src/assets/imgs/Dresses/d_2.jpg",
+      "/src/assets/imgs/Dresses/d_3.jpg"
     ],
     "date": "2024-10-09",
     "duration":13000
@@ -120,9 +120,9 @@
     "description": "فستان زفاف بسيط وأنيق، مثالي للعرائس اللواتي يحببن البساطة.",
     "price": 199.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_4.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_5.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_6.jpg"
+      "/src/assets/imgs/Dresses/d_4.jpg",
+      "/src/assets/imgs/Dresses/d_5.jpg",
+      "/src/assets/imgs/Dresses/d_6.jpg"
     ],
     "date": "2024-10-10",
     "duration": 14000
@@ -133,9 +133,9 @@
     "description": "فستان كاجوال طويل يناسب الأيام يناسب الباردة.",
     "price": 69.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_7.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_8.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_9.jpg"
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
     ],
     "date": "2024-10-11",
     "duration": 16000
@@ -146,9 +146,9 @@
     "description": "فستان كاجوال طويل يناسب الأيام يناسب الباردة.",
     "price": 69.99,
     "images": [
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_7.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_8.jpg",
-      "/anaqat-farhati-website/src/assets/imgs/Dresses/d_9.jpg"
+      "/src/assets/imgs/Dresses/d_7.jpg",
+      "/src/assets/imgs/Dresses/d_8.jpg",
+      "/src/assets/imgs/Dresses/d_9.jpg"
     ],
     "date": "2024-10-11",
     "duration": 17000
