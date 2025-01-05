@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "vite build"
+    "deploy": "vite build && git add dist -f && git commit -m \"Build for production\" && git subtree push --prefix dist origin production"
   },
   "dependencies": {
     "@primevue/themes": "^4.2.2",
